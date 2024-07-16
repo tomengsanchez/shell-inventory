@@ -1,7 +1,7 @@
 <?php
 add_action('admin_menu',function(){
-    add_menu_page('Shell Inventory','Shell Inventory','manage_inventory','shell-inventory-dashboard',function(){},'dashicons-location-alt',22);
-    add_submenu_page( 'shell-inventory-dashboard', 'Dashboard', 'Dashboard', 'manage_inventory', 'shell-inventory-dashboard', function(){} ); // replace function(){} with your function name
+    add_menu_page('Shell Inventory','Shell Inventory','manage_inventory','shell-inventory-dashboard','shell_dashboard','dashicons-location-alt',22);
+    add_submenu_page( 'shell-inventory-dashboard', 'Dashboard', 'Dashboard', 'manage_inventory', 'shell-inventory-dashboard', 'shell_dashboard'); // replace function(){} with your function name
     add_submenu_page( 'shell-inventory-dashboard', 'Movements', 'Movements', 'manage_inventory', 'shell-inventory-movements', function(){ } );
 
     //ITEMS List
