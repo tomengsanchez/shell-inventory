@@ -26,9 +26,9 @@ add_action( 'init', function(){
 add_filter('login_redirect','shell_login_redirect',10,3);
 function shell_login_redirect( $redirect_to, $request, $user ) {
     
-    if ( current_user_can('manage_inventory')) {
+    // if ( current_user_can('manage_inventory')) {
         $redirect_to = admin_url("/admin.php?page=shell-inventory-dashboard");
-    }
+    // }
     
     return $redirect_to;
 }
