@@ -115,8 +115,6 @@ function shell_dashboard(){
 </div>
       
 
-         
-
 <div class="page-body ">
 <div class="col">
 <div class="page-pretitle">Overview
@@ -124,6 +122,24 @@ function shell_dashboard(){
 <h5 class="page-title"><strong>Dashboard</strong>
   </h5>
     </div>
+
+        <div class="col-auto ms-auto d-print-none">
+            <div class="btn-list">
+              <a class="btn btn-secondary btn-sm d-none d-sm-inline-block" href="http://dev.ecosyscorp.com/elaine/orders/create.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg mt-1.7  " viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                  <path stroke="none" d="M0 0h24v2H0z" fill="none"></path>
+                  <path d="M12 5l0 14"></path>
+                  <path d="M5 12l14 0"></path>
+                </svg>
+                Create new orders
+              </a>
+            </div>
+           </div>
+        </div>
+      </div>
+  </div>
+
       <div class="container-xl">
         <div class="row row-deck row-cards">
           <div class="col-12">
