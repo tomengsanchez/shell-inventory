@@ -5,4 +5,4 @@
 require('vendor/autoload.php');
 include_once 'autoloader.php';
 
-Autoloader::register();
+AutoloaderShells::register();

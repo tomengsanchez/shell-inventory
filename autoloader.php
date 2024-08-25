@@ -1,5 +1,5 @@
 <?php
-class Autoloader
+class AutoloaderShells
 {
   public static function register()
   {
